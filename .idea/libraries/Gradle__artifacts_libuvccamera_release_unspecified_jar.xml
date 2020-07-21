@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:libuvccamera-release:unspecified@jar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/libuvccamera-release/build/.transforms/1de1d12d8e96e8eb5daa00138fe77e89/libuvccamera-release/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/libuvccamera-release/build/.transforms/1de1d12d8e96e8eb5daa00138fe77e89/libuvccamera-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/libuvccamera-release/build/.transforms/1de1d12d8e96e8eb5daa00138fe77e89/libuvccamera-release/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
