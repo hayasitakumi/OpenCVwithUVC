@@ -64,66 +64,24 @@ class MainActivity : BaseActivity(), CameraDialogParent {
      * Handler to execute camera related methods sequentially on private thread
      */
     private var mCameraHandler: UVCCameraHandlerMultiSurface? = null
-
-    /**
-     * for camera preview display
-     */
-//    private var mUVCCameraView: UVCCameraTextureView? = null
-
-    /**
-     * for display resulted images
-     */
-//    protected var mResultView: SurfaceView? = null
-
-    /**
-     * for open&start / stop&close camera preview
-     */
-//    private var mCameraButton: ToggleButton? = null
-
-    /**
-     * button for start/stop recording
-     */
-//    private var mCaptureButton: ImageButton? = null
-//    private var mBrightnessButton: View? = null
-//    private var mContrastButton: View? = null
-//    private var mResetButton: View? = null
-//    private var mToolsLayout: View? = null
-//    private var mValueLayout: View? = null
-//    private var mSettingSeekbar: SeekBar? = null
-    protected var mImageProcessor: ImageProcessor? = null
-//    private var mCpuLoadTv: TextView? = null
-//    private var mFpsTv: TextView? = null
+    private var mImageProcessor: ImageProcessor? = null
     private val cpuMonitor = CpuMonitor()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         if (DEBUG) Log.v(TAG, "onCreate:")
         setContentView(R.layout.activity_main)
-//        mCameraButton = findViewById(R.id.camera_button)
         camera_button.setOnCheckedChangeListener(mOnCheckedChangeListener)
-//        mCaptureButton = findViewById(R.id.capture_button)
         capture_button.setOnClickListener(mOnClickListener)
         capture_button.visibility = View.INVISIBLE
-//        mUVCCameraView = findViewById(R.id.camera_view)
         camera_view.setOnLongClickListener(mOnLongClickListener)
-//        camera_view.setAspectRatio(PREVIEW_WIDTH / PREVIEW_HEIGHT as Float.toDouble())
-//        mResultView = findViewById(R.id.result_view)
-//        mBrightnessButton = findViewById(R.id.brightness_button)
         brightness_button.setOnClickListener(mOnClickListener)
-//        mContrastButton = findViewById(R.id.contrast_button)
         contrast_button.setOnClickListener(mOnClickListener)
-//        mResetButton = findViewById(R.id.reset_button)
         reset_button.setOnClickListener(mOnClickListener)
-//        mSettingSeekbar = findViewById(R.id.setting_seekbar)
         setting_seekbar.setOnSeekBarChangeListener(mOnSeekBarChangeListener)
-//        mToolsLayout = findViewById(R.id.tools_layout)
         tools_layout.visibility = View.INVISIBLE
-//        mValueLayout = findViewById(R.id.value_layout)
         value_layout.visibility = View.INVISIBLE
-//        mCpuLoadTv = findViewById(R.id.cpu_load_textview)
         cpu_load_textview.typeface = Typeface.MONOSPACE
-        //
-//        mFpsTv = findViewById(R.id.fps_textview)
         fps_textview.text = null
         fps_textview.typeface = Typeface.MONOSPACE
         mUSBMonitor = USBMonitor(this, mOnDeviceConnectListener)
@@ -159,9 +117,6 @@ class MainActivity : BaseActivity(), CameraDialogParent {
             mUSBMonitor!!.destroy()
             mUSBMonitor = null
         }
-//        mUVCCameraView = null
-//        camera_button = null
-//        mCaptureButton = null
         super.onDestroy()
     }
 
@@ -462,15 +417,13 @@ class MainActivity : BaseActivity(), CameraDialogParent {
     }
     private val mFpsTask: Runnable = object : Runnable {
         override fun run() {
-            val srcFps: Float
-            val resultFps: Float
-            srcFps = if (camera_view != null) {
+            val srcFps: Float = if (camera_view != null) {
                 camera_view!!.updateFps()
                 camera_view!!.fps
             } else {
                 0.0f
             }
-            resultFps = if (mImageProcessor != null) {
+            val resultFps: Float = if (mImageProcessor != null) {
                 mImageProcessor!!.updateFps()
                 mImageProcessor!!.fps
             } else {
