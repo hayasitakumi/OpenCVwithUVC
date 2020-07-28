@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
 	compileSdkVersion versionCompiler
@@ -46,4 +48,8 @@ dependencies {
 	implementation project(':opencv')
 	implementation project(':usbCameraCommon-release')
 	implementation project(':libuvccamera-release')
+	implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+	mavenCentral()
 }

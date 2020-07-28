@@ -22,6 +22,9 @@
  */
 
 apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
 import org.apache.tools.ant.taskdefs.condition.Os
 
 android {
@@ -96,4 +99,8 @@ dependencies {
 	implementation("com.serenegiant:common:2.12.4") {
 		exclude module: 'support-v4'
 	}
+	implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+	mavenCentral()
 }

@@ -5,23 +5,23 @@ INJECTED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/
 INJECTED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/AndroidManifest.xml:2:1-28:12
 INJECTED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/AndroidManifest.xml:2:1-28:12
 MERGED from [:opencv] /Users/syabonbubble/Documents/Research/OpenCVwithUVC/opencv/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/a65c03b57a0caa425465ef6e2b642e63/constraint-layout-1.1.3/AndroidManifest.xml:2:1-11:12
-MERGED from [com.serenegiant:common:2.12.4] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/b7e7bc74548be7e076fe172ea064db53/common-2.12.4/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:preference-v7:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/2a4a868b1346152eed42f51fc20ad307/preference-v7-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/5613b1575c45a5ed4dab5ab199b10ad0/recyclerview-v7-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/3888b76ca1d3233026c2f5cad8877075/appcompat-v7-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/34b522c8855e0c73cf9effc4a9a32013/support-fragment-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/8620ba8927b39a6d291db6ea05c53d76/animated-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/bf9b5a52845b8771aff5fabdecdcc03d/support-core-ui-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/beeb82b2510e87c5231b2c828dbda485/support-core-utils-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/d8d452f44ab125f201933d0870752fbc/support-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/222ad3875af524dbeddaea9e092a0d60/support-compat-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [:usbCameraCommon-release] /Users/syabonbubble/Documents/Research/OpenCVwithUVC/usbCameraCommon-release/build/.transforms/11b5582a96caaf24869bee02dea7b9ab/usbCameraCommon-release/AndroidManifest.xml:24:1-32:12
-MERGED from [:libuvccamera-release] /Users/syabonbubble/Documents/Research/OpenCVwithUVC/libuvccamera-release/build/.transforms/1de1d12d8e96e8eb5daa00138fe77e89/libuvccamera-release/AndroidManifest.xml:24:1-33:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/115e96da560aef7a1eded67ff187307e/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/eb11e490220b2b77e71b21d47a6ef261/livedata-core-1.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/f3d8400d34d44a28d45a1ffcf10f060c/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/555b39dad4a9593ee5ac0435517d4a05/viewmodel-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/d819a8f2a95de93f01a8a32f7fe1be84/constraint-layout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.serenegiant:common:2.12.4] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/5537c2b2f8152c5c6f4a8b2f8f80bcec/common-2.12.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:preference-v7:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/cb365d19f799bdcde99e473ba1af8e25/preference-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/c1e4a6ff4d3786aa1a9d9a4ddb6f17ea/recyclerview-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/e39d6da4866e1105b1e7ef2e69f8d114/appcompat-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/4dd1526a94ccce50b45a60e5ffd6e989/support-fragment-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/ffd09a610bef6bf6c8397265e733a356/animated-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/d521419253192c3065286d02f7b9f6f7/support-core-ui-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/992f95628dfba25633a3882a026f6898/support-core-utils-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/cffbc27331913fe624ccfcf05a1cfbf9/support-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/c7654342fe0748df5630586c478d71a4/support-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [:usbCameraCommon-release] /Users/syabonbubble/Documents/Research/OpenCVwithUVC/usbCameraCommon-release/build/.transforms/be5a0e3bb0539091896daf3e1957af44/usbCameraCommon-release/AndroidManifest.xml:24:1-32:12
+MERGED from [:libuvccamera-release] /Users/syabonbubble/Documents/Research/OpenCVwithUVC/libuvccamera-release/build/.transforms/b7bac15a586b5be00dad225057c829cc/libuvccamera-release/AndroidManifest.xml:24:1-33:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/ecb29d8972dd111d7a10d2db17235992/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/f1928c28dd296d458c16bd3803651910/livedata-core-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/5f9398a2cd4b44bd49bcf34469588926/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/6210dbd5b688a033efcf73ad5b81d887/viewmodel-1.1.0/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/AndroidManifest.xml:2:1-28:12
 INJECTED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/AndroidManifest.xml:2:1-28:12
 INJECTED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/AndroidManifest.xml:2:1-28:12
@@ -61,8 +61,8 @@ ADDED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/And
 		ADDED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/AndroidManifest.xml:10:16-56
 application
 ADDED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/AndroidManifest.xml:12:2-26:16
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/a65c03b57a0caa425465ef6e2b642e63/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/a65c03b57a0caa425465ef6e2b642e63/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/d819a8f2a95de93f01a8a32f7fe1be84/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/d819a8f2a95de93f01a8a32f7fe1be84/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
 	android:supportsRtl
 		ADDED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/AndroidManifest.xml:17:3-29
 	android:label
@@ -95,40 +95,40 @@ INJECTED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/
 INJECTED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/AndroidManifest.xml
 MERGED from [:opencv] /Users/syabonbubble/Documents/Research/OpenCVwithUVC/opencv/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:opencv] /Users/syabonbubble/Documents/Research/OpenCVwithUVC/opencv/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/a65c03b57a0caa425465ef6e2b642e63/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/a65c03b57a0caa425465ef6e2b642e63/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [com.serenegiant:common:2.12.4] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/b7e7bc74548be7e076fe172ea064db53/common-2.12.4/AndroidManifest.xml:7:5-9:41
-MERGED from [com.serenegiant:common:2.12.4] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/b7e7bc74548be7e076fe172ea064db53/common-2.12.4/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:preference-v7:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/2a4a868b1346152eed42f51fc20ad307/preference-v7-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:preference-v7:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/2a4a868b1346152eed42f51fc20ad307/preference-v7-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/5613b1575c45a5ed4dab5ab199b10ad0/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/5613b1575c45a5ed4dab5ab199b10ad0/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/3888b76ca1d3233026c2f5cad8877075/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/3888b76ca1d3233026c2f5cad8877075/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/34b522c8855e0c73cf9effc4a9a32013/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/34b522c8855e0c73cf9effc4a9a32013/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/8620ba8927b39a6d291db6ea05c53d76/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/8620ba8927b39a6d291db6ea05c53d76/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/bf9b5a52845b8771aff5fabdecdcc03d/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/bf9b5a52845b8771aff5fabdecdcc03d/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/beeb82b2510e87c5231b2c828dbda485/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/beeb82b2510e87c5231b2c828dbda485/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/d8d452f44ab125f201933d0870752fbc/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/d8d452f44ab125f201933d0870752fbc/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/222ad3875af524dbeddaea9e092a0d60/support-compat-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/222ad3875af524dbeddaea9e092a0d60/support-compat-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [:usbCameraCommon-release] /Users/syabonbubble/Documents/Research/OpenCVwithUVC/usbCameraCommon-release/build/.transforms/11b5582a96caaf24869bee02dea7b9ab/usbCameraCommon-release/AndroidManifest.xml:28:5-30:41
-MERGED from [:usbCameraCommon-release] /Users/syabonbubble/Documents/Research/OpenCVwithUVC/usbCameraCommon-release/build/.transforms/11b5582a96caaf24869bee02dea7b9ab/usbCameraCommon-release/AndroidManifest.xml:28:5-30:41
-MERGED from [:libuvccamera-release] /Users/syabonbubble/Documents/Research/OpenCVwithUVC/libuvccamera-release/build/.transforms/1de1d12d8e96e8eb5daa00138fe77e89/libuvccamera-release/AndroidManifest.xml:29:5-31:41
-MERGED from [:libuvccamera-release] /Users/syabonbubble/Documents/Research/OpenCVwithUVC/libuvccamera-release/build/.transforms/1de1d12d8e96e8eb5daa00138fe77e89/libuvccamera-release/AndroidManifest.xml:29:5-31:41
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/115e96da560aef7a1eded67ff187307e/runtime-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/115e96da560aef7a1eded67ff187307e/runtime-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/eb11e490220b2b77e71b21d47a6ef261/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/eb11e490220b2b77e71b21d47a6ef261/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/f3d8400d34d44a28d45a1ffcf10f060c/runtime-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/f3d8400d34d44a28d45a1ffcf10f060c/runtime-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/555b39dad4a9593ee5ac0435517d4a05/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/555b39dad4a9593ee5ac0435517d4a05/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/d819a8f2a95de93f01a8a32f7fe1be84/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/d819a8f2a95de93f01a8a32f7fe1be84/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.serenegiant:common:2.12.4] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/5537c2b2f8152c5c6f4a8b2f8f80bcec/common-2.12.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.serenegiant:common:2.12.4] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/5537c2b2f8152c5c6f4a8b2f8f80bcec/common-2.12.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:preference-v7:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/cb365d19f799bdcde99e473ba1af8e25/preference-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v7:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/cb365d19f799bdcde99e473ba1af8e25/preference-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/c1e4a6ff4d3786aa1a9d9a4ddb6f17ea/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/c1e4a6ff4d3786aa1a9d9a4ddb6f17ea/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/e39d6da4866e1105b1e7ef2e69f8d114/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/e39d6da4866e1105b1e7ef2e69f8d114/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/4dd1526a94ccce50b45a60e5ffd6e989/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/4dd1526a94ccce50b45a60e5ffd6e989/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/ffd09a610bef6bf6c8397265e733a356/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/ffd09a610bef6bf6c8397265e733a356/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/d521419253192c3065286d02f7b9f6f7/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/d521419253192c3065286d02f7b9f6f7/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/992f95628dfba25633a3882a026f6898/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/992f95628dfba25633a3882a026f6898/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/cffbc27331913fe624ccfcf05a1cfbf9/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/cffbc27331913fe624ccfcf05a1cfbf9/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/c7654342fe0748df5630586c478d71a4/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/c7654342fe0748df5630586c478d71a4/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [:usbCameraCommon-release] /Users/syabonbubble/Documents/Research/OpenCVwithUVC/usbCameraCommon-release/build/.transforms/be5a0e3bb0539091896daf3e1957af44/usbCameraCommon-release/AndroidManifest.xml:28:5-30:41
+MERGED from [:usbCameraCommon-release] /Users/syabonbubble/Documents/Research/OpenCVwithUVC/usbCameraCommon-release/build/.transforms/be5a0e3bb0539091896daf3e1957af44/usbCameraCommon-release/AndroidManifest.xml:28:5-30:41
+MERGED from [:libuvccamera-release] /Users/syabonbubble/Documents/Research/OpenCVwithUVC/libuvccamera-release/build/.transforms/b7bac15a586b5be00dad225057c829cc/libuvccamera-release/AndroidManifest.xml:29:5-31:41
+MERGED from [:libuvccamera-release] /Users/syabonbubble/Documents/Research/OpenCVwithUVC/libuvccamera-release/build/.transforms/b7bac15a586b5be00dad225057c829cc/libuvccamera-release/AndroidManifest.xml:29:5-31:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/ecb29d8972dd111d7a10d2db17235992/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/ecb29d8972dd111d7a10d2db17235992/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/f1928c28dd296d458c16bd3803651910/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/f1928c28dd296d458c16bd3803651910/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/5f9398a2cd4b44bd49bcf34469588926/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/5f9398a2cd4b44bd49bcf34469588926/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/6210dbd5b688a033efcf73ad5b81d887/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/6210dbd5b688a033efcf73ad5b81d887/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
 INJECTED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/AndroidManifest.xml
 INJECTED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion

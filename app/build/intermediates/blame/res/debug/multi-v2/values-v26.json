@@ -4,7 +4,7 @@
             "outputFile": "/Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "/Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/3888b76ca1d3233026c2f5cad8877075/appcompat-v7-27.1.1/res/values-v26/values-v26.xml",
+                    "source": "/Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/e39d6da4866e1105b1e7ef2e69f8d114/appcompat-v7-27.1.1/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
