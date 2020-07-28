@@ -1375,11 +1375,9 @@ id barrier
 id beginning
 id blocking
 id bottom
-id brightness_button
 id buttonPanel
 id camera_button
 id camera_view
-id capture_button
 id center
 id center_horizontal
 id center_vertical
@@ -1401,8 +1399,6 @@ id color_picker
 id color_picker_frame
 id color_select_button
 id contentPanel
-id contrast_button
-id cpu_load_textview
 id crop_center
 id custom
 id customPanel
@@ -1421,7 +1417,6 @@ id fill
 id fill_horizontal
 id fill_vertical
 id forever
-id fps_textview
 id frame_circle2_button
 id frame_circle_button
 id frame_cross_button
@@ -1485,8 +1480,6 @@ id position
 id progress_circular
 id progress_horizontal
 id radio
-id reset_button
-id result_view
 id right
 id right_icon
 id right_side
@@ -1517,7 +1510,6 @@ id seekbar_value_label
 id select1
 id select2
 id select_dialog_listview
-id setting_seekbar
 id shortcut
 id showCustom
 id showHome
@@ -1552,13 +1544,11 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
-id tools_layout
 id top
 id topPanel
 id uniform
 id up
 id useLogo
-id value_layout
 id vertical
 id withText
 id wrap

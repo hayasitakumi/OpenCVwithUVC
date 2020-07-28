@@ -36,8 +36,8 @@ import android.view.View.OnLongClickListener
 import android.widget.*
 import android.widget.SeekBar.OnSeekBarChangeListener
 import com.serenegiant.common.BaseActivity
-import com.serenegiant.opencv.ImageProcessor
-import com.serenegiant.opencv.ImageProcessor.ImageProcessorCallback
+//import com.serenegiant.opencv.ImageProcessor
+//import com.serenegiant.opencv.ImageProcessor.ImageProcessorCallback
 import com.serenegiant.opencvwithuvc.MainActivity
 import com.serenegiant.usb.CameraDialog
 import com.serenegiant.usb.CameraDialog.CameraDialogParent
@@ -64,7 +64,7 @@ class MainActivity : BaseActivity(), CameraDialogParent {
      * Handler to execute camera related methods sequentially on private thread
      */
     private var mCameraHandler: UVCCameraHandlerMultiSurface? = null
-    private var mImageProcessor: ImageProcessor? = null
+//    private var mImageProcessor: ImageProcessor? = null
     private val cpuMonitor = CpuMonitor()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -72,18 +72,18 @@ class MainActivity : BaseActivity(), CameraDialogParent {
         if (DEBUG) Log.v(TAG, "onCreate:")
         setContentView(R.layout.activity_main)
         camera_button.setOnCheckedChangeListener(mOnCheckedChangeListener)
-        capture_button.setOnClickListener(mOnClickListener)
-        capture_button.visibility = View.INVISIBLE
+//        capture_button.setOnClickListener(mOnClickListener)
+//        capture_button.visibility = View.INVISIBLE
         camera_view.setOnLongClickListener(mOnLongClickListener)
-        brightness_button.setOnClickListener(mOnClickListener)
-        contrast_button.setOnClickListener(mOnClickListener)
-        reset_button.setOnClickListener(mOnClickListener)
-        setting_seekbar.setOnSeekBarChangeListener(mOnSeekBarChangeListener)
-        tools_layout.visibility = View.INVISIBLE
-        value_layout.visibility = View.INVISIBLE
-        cpu_load_textview.typeface = Typeface.MONOSPACE
-        fps_textview.text = null
-        fps_textview.typeface = Typeface.MONOSPACE
+//        brightness_button.setOnClickListener(mOnClickListener)
+//        contrast_button.setOnClickListener(mOnClickListener)
+//        reset_button.setOnClickListener(mOnClickListener)
+//        setting_seekbar.setOnSeekBarChangeListener(mOnSeekBarChangeListener)
+//        tools_layout.visibility = View.INVISIBLE
+//        value_layout.visibility = View.INVISIBLE
+//        cpu_load_textview.typeface = Typeface.MONOSPACE
+//        fps_textview.text = null
+//        fps_textview.typeface = Typeface.MONOSPACE
         mUSBMonitor = USBMonitor(this, mOnDeviceConnectListener)
         mCameraHandler = UVCCameraHandlerMultiSurface.createHandler(this, camera_view,
                 1, PREVIEW_WIDTH, PREVIEW_HEIGHT, PREVIEW_MODE)
@@ -125,20 +125,20 @@ class MainActivity : BaseActivity(), CameraDialogParent {
      */
     private val mOnClickListener = View.OnClickListener { view ->
         when (view.id) {
-            R.id.capture_button -> if (mCameraHandler!!.isOpened) {
-                if (checkPermissionWriteExternalStorage() && checkPermissionAudio()) {
-                    if (!mCameraHandler!!.isRecording) {
-                        capture_button!!.setColorFilter(-0x10000) // turn red
-                        mCameraHandler!!.startRecording()
-                    } else {
-                        capture_button!!.setColorFilter(0) // return to default color
-                        mCameraHandler!!.stopRecording()
-                    }
-                }
-            }
-            R.id.brightness_button -> showSettings(UVCCamera.PU_BRIGHTNESS)
-            R.id.contrast_button -> showSettings(UVCCamera.PU_CONTRAST)
-            R.id.reset_button -> resetSettings()
+//            R.id.capture_button -> if (mCameraHandler!!.isOpened) {
+//                if (checkPermissionWriteExternalStorage() && checkPermissionAudio()) {
+//                    if (!mCameraHandler!!.isRecording) {
+//                        capture_button!!.setColorFilter(-0x10000) // turn red
+//                        mCameraHandler!!.startRecording()
+//                    } else {
+//                        capture_button!!.setColorFilter(0) // return to default color
+//                        mCameraHandler!!.stopRecording()
+//                    }
+//                }
+//            }
+//            R.id.brightness_button -> showSettings(UVCCamera.PU_BRIGHTNESS)
+//            R.id.contrast_button -> showSettings(UVCCamera.PU_CONTRAST)
+//            R.id.reset_button -> resetSettings()
         }
     }
     private val mOnCheckedChangeListener = CompoundButton.OnCheckedChangeListener { compoundButton, isChecked ->
@@ -177,9 +177,9 @@ class MainActivity : BaseActivity(), CameraDialogParent {
                     camera_button!!.setOnCheckedChangeListener(mOnCheckedChangeListener)
                 }
             }
-            if (!isOn && capture_button != null) {
-                capture_button!!.visibility = View.INVISIBLE
-            }
+//            if (!isOn && capture_button != null) {
+//                capture_button!!.visibility = View.INVISIBLE
+//            }
         }, 0)
         updateItems()
     }
@@ -197,7 +197,7 @@ class MainActivity : BaseActivity(), CameraDialogParent {
                     mPreviewSurfaceId = surface.hashCode()
                     mCameraHandler!!.addSurface(mPreviewSurfaceId, surface, false)
                 }
-                capture_button!!.visibility = View.VISIBLE
+//                capture_button!!.visibility = View.VISIBLE
                 startImageProcessor(PREVIEW_WIDTH, PREVIEW_HEIGHT)
             } catch (e: Exception) {
                 Log.w(TAG, e)
@@ -292,9 +292,9 @@ class MainActivity : BaseActivity(), CameraDialogParent {
     private val mUpdateItemsOnUITask = Runnable {
         if (isFinishing) return@Runnable
         val visible_active = if (isActive) View.VISIBLE else View.INVISIBLE
-        tools_layout!!.visibility = visible_active
-        brightness_button!!.visibility = if (checkSupportFlag(UVCCamera.PU_BRIGHTNESS)) visible_active else View.INVISIBLE
-        contrast_button!!.visibility = if (checkSupportFlag(UVCCamera.PU_CONTRAST)) visible_active else View.INVISIBLE
+//        tools_layout!!.visibility = visible_active
+//        brightness_button!!.visibility = if (checkSupportFlag(UVCCamera.PU_BRIGHTNESS)) visible_active else View.INVISIBLE
+//        contrast_button!!.visibility = if (checkSupportFlag(UVCCamera.PU_CONTRAST)) visible_active else View.INVISIBLE
     }
     private var mSettingMode = -1
 
@@ -309,8 +309,8 @@ class MainActivity : BaseActivity(), CameraDialogParent {
             when (mode) {
                 UVCCamera.PU_BRIGHTNESS, UVCCamera.PU_CONTRAST -> {
                     mSettingMode = mode
-                    setting_seekbar!!.progress = getValue(mode)
-                    ViewAnimationHelper.fadeIn(value_layout, -1, 0, mViewAnimationListener)
+//                    setting_seekbar!!.progress = getValue(mode)
+//                    ViewAnimationHelper.fadeIn(value_layout, -1, 0, mViewAnimationListener)
                 }
             }
         }
@@ -318,12 +318,12 @@ class MainActivity : BaseActivity(), CameraDialogParent {
 
     private fun resetSettings() {
         if (isActive) {
-            when (mSettingMode) {
-                UVCCamera.PU_BRIGHTNESS, UVCCamera.PU_CONTRAST -> setting_seekbar!!.progress = resetValue(mSettingMode)
-            }
+//            when (mSettingMode) {
+//                UVCCamera.PU_BRIGHTNESS, UVCCamera.PU_CONTRAST -> setting_seekbar!!.progress = resetValue(mSettingMode)
+//            }
         }
         mSettingMode = -1
-        ViewAnimationHelper.fadeOut(value_layout, -1, 0, mViewAnimationListener)
+//        ViewAnimationHelper.fadeOut(value_layout, -1, 0, mViewAnimationListener)
     }
 
     /**
@@ -333,10 +333,10 @@ class MainActivity : BaseActivity(), CameraDialogParent {
     protected fun hideSetting(fadeOut: Boolean) {
         removeFromUiThread(mSettingHideTask)
         if (fadeOut) {
-            runOnUiThread({ ViewAnimationHelper.fadeOut(value_layout, -1, 0, mViewAnimationListener) }, 0)
+//            runOnUiThread({ ViewAnimationHelper.fadeOut(value_layout, -1, 0, mViewAnimationListener) }, 0)
         } else {
             try {
-                value_layout!!.visibility = View.GONE
+//                value_layout!!.visibility = View.GONE
             } catch (e: Exception) {
                 // ignore
             }
@@ -380,16 +380,16 @@ class MainActivity : BaseActivity(), CameraDialogParent {
             when (animationType) {
                 ViewAnimationHelper.ANIMATION_FADE_IN, ViewAnimationHelper.ANIMATION_FADE_OUT -> {
                     val fadeIn = animationType == ViewAnimationHelper.ANIMATION_FADE_IN
-                    if (id == R.id.value_layout) {
-                        if (fadeIn) {
-                            runOnUiThread(mSettingHideTask, SETTINGS_HIDE_DELAY_MS.toLong())
-                        } else {
-                            value_layout!!.visibility = View.GONE
-                            mSettingMode = -1
-                        }
-                    } else if (!fadeIn) {
-//					target.setVisibility(View.GONE);
-                    }
+//                    if (id == R.id.value_layout) {
+//                        if (fadeIn) {
+//                            runOnUiThread(mSettingHideTask, SETTINGS_HIDE_DELAY_MS.toLong())
+//                        } else {
+////                            value_layout!!.visibility = View.GONE
+//                            mSettingMode = -1
+//                        }
+//                    } else if (!fadeIn) {
+////					target.setVisibility(View.GONE);
+//                    }
                 }
             }
         }
@@ -406,10 +406,10 @@ class MainActivity : BaseActivity(), CameraDialogParent {
         override fun run() {
             if (cpuMonitor.sampleCpuUtilization()) {
                 runOnUiThread {
-                    cpu_load_textview!!.text = String.format(Locale.US, "CPU:%3d/%3d/%3d",
-                            cpuMonitor.cpuCurrent,
-                            cpuMonitor.cpuAvg3,
-                            cpuMonitor.cpuAvgAll)
+//                    cpu_load_textview!!.text = String.format(Locale.US, "CPU:%3d/%3d/%3d",
+//                            cpuMonitor.cpuCurrent,
+//                            cpuMonitor.cpuAvg3,
+//                            cpuMonitor.cpuAvgAll)
                 }
             }
             queueEvent(this, 1000)
@@ -423,13 +423,13 @@ class MainActivity : BaseActivity(), CameraDialogParent {
             } else {
                 0.0f
             }
-            val resultFps: Float = if (mImageProcessor != null) {
-                mImageProcessor!!.updateFps()
-                mImageProcessor!!.fps
-            } else {
-                0.0f
-            }
-            fps_textview!!.text = String.format(Locale.US, "FPS:%4.1f->%4.1f", srcFps, resultFps)
+//            val resultFps: Float = if (mImageProcessor != null) {
+//                mImageProcessor!!.updateFps()
+//                mImageProcessor!!.fps
+//            } else {
+//                0.0f
+//            }
+//            fps_textview!!.text = String.format(Locale.US, "FPS:%4.1f->%4.1f", srcFps, resultFps)
             runOnUiThread(this, 1000)
         }
     }
@@ -447,16 +447,16 @@ class MainActivity : BaseActivity(), CameraDialogParent {
     protected fun startImageProcessor(processing_width: Int, processing_height: Int) {
         if (DEBUG) Log.v(TAG, "startImageProcessor:")
         mIsRunning = true
-        if (mImageProcessor == null) {
-            mImageProcessor = ImageProcessor(PREVIEW_WIDTH, PREVIEW_HEIGHT,  // src size
-                    MyImageProcessorCallback(processing_width, processing_height)) // processing size
-            mImageProcessor!!.start(processing_width, processing_height) // processing size
-            val surface = mImageProcessor!!.surface
-            mImageProcessorSurfaceId = surface?.hashCode() ?: 0
-            if (mImageProcessorSurfaceId != 0) {
-                mCameraHandler!!.addSurface(mImageProcessorSurfaceId, surface, false)
-            }
-        }
+//        if (mImageProcessor == null) {
+//            mImageProcessor = ImageProcessor(PREVIEW_WIDTH, PREVIEW_HEIGHT,  // src size
+//                    MyImageProcessorCallback(processing_width, processing_height)) // processing size
+//            mImageProcessor!!.start(processing_width, processing_height) // processing size
+//            val surface = mImageProcessor!!.surface
+//            mImageProcessorSurfaceId = surface?.hashCode() ?: 0
+//            if (mImageProcessorSurfaceId != 0) {
+//                mCameraHandler!!.addSurface(mImageProcessorSurfaceId, surface, false)
+//            }
+//        }
     }
 
     /**
@@ -468,64 +468,63 @@ class MainActivity : BaseActivity(), CameraDialogParent {
             mCameraHandler!!.removeSurface(mImageProcessorSurfaceId)
             mImageProcessorSurfaceId = 0
         }
-        if (mImageProcessor != null) {
-            mImageProcessor!!.release()
-            mImageProcessor = null
-        }
+//        if (mImageProcessor != null) {
+//            mImageProcessor!!.release()
+//            mImageProcessor = null
+//        }
     }
 
     /**
      * callback listener from `ImageProcessor`
      */
-    protected inner class MyImageProcessorCallback(
-            private val width: Int, private val height: Int) : ImageProcessorCallback {
-        private val matrix = Matrix()
-        private var mFrame: Bitmap? = null
-        override fun onFrame(frame: ByteBuffer) {
-            if (result_view != null) {
-                val holder = result_view!!.holder
-                if (holder == null
-                        || holder.surface == null
-                        || frame == null) return
+//    private inner class MyImageProcessorCallback(private val width: Int, private val height: Int) : ImageProcessorCallback {
+//        private val matrix = Matrix()
+//        private var mFrame: Bitmap? = null
+//        override fun onFrame(frame: ByteBuffer) {
+//            if (result_view != null) {
+//                val holder = result_view!!.holder
+//                if (holder == null
+//                        || holder.surface == null
+//                        || frame == null) return
+//
+////--------------------------------------------------------------------------------
+//// Using SurfaceView and Bitmap to draw resulted images is inefficient way,
+//// but functions onOpenCV are relatively heavy and expect slower than source
+//// frame rate. So currently just use the way to simply this sample app.
+//// If you want to use much efficient way, try to use as same way as
+//// UVCCamera class use to receive images from UVC camera.
+////--------------------------------------------------------------------------------
+//                if (mFrame == null) {
+//                    mFrame = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)
+//                    val scaleX = result_view!!.width / width.toFloat()
+//                    val scaleY = result_view!!.height / height.toFloat()
+//                    matrix.reset()
+//                    matrix.postScale(scaleX, scaleY)
+//                }
+//                try {
+//                    frame.clear()
+//                    mFrame!!.copyPixelsFromBuffer(frame)
+//                    val canvas = holder.lockCanvas()
+//                    if (canvas != null) {
+//                        try {
+//                            canvas.drawBitmap(mFrame, matrix, null)
+//                        } catch (e: Exception) {
+//                            Log.w(TAG, e)
+//                        } finally {
+//                            holder.unlockCanvasAndPost(canvas)
+//                        }
+//                    }
+//                } catch (e: Exception) {
+//                    Log.w(TAG, e)
+//                }
+//            }
+//        }
 
-//--------------------------------------------------------------------------------
-// Using SurfaceView and Bitmap to draw resulted images is inefficient way,
-// but functions onOpenCV are relatively heavy and expect slower than source
-// frame rate. So currently just use the way to simply this sample app.
-// If you want to use much efficient way, try to use as same way as
-// UVCCamera class use to receive images from UVC camera.
-//--------------------------------------------------------------------------------
-                if (mFrame == null) {
-                    mFrame = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)
-                    val scaleX = result_view!!.width / width.toFloat()
-                    val scaleY = result_view!!.height / height.toFloat()
-                    matrix.reset()
-                    matrix.postScale(scaleX, scaleY)
-                }
-                try {
-                    frame.clear()
-                    mFrame!!.copyPixelsFromBuffer(frame)
-                    val canvas = holder.lockCanvas()
-                    if (canvas != null) {
-                        try {
-                            canvas.drawBitmap(mFrame, matrix, null)
-                        } catch (e: Exception) {
-                            Log.w(TAG, e)
-                        } finally {
-                            holder.unlockCanvasAndPost(canvas)
-                        }
-                    }
-                } catch (e: Exception) {
-                    Log.w(TAG, e)
-                }
-            }
-        }
-
-        override fun onResult(type: Int, result: FloatArray) {
-            // do something
-        }
-
-    }
+//        override fun onResult(type: Int, result: FloatArray) {
+//            // do something
+//        }
+//
+//    }
 
     companion object {
         private const val DEBUG = true // TODO set false on release
@@ -560,6 +559,6 @@ class MainActivity : BaseActivity(), CameraDialogParent {
          * 0:YUYV, other:MJPEG
          */
         private const val PREVIEW_MODE = 1
-        protected const val SETTINGS_HIDE_DELAY_MS = 2500
+        private const val SETTINGS_HIDE_DELAY_MS = 2500
     }
 }
