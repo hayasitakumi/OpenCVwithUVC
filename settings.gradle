@@ -1,1 +1,1 @@
-include ':app', ':libuvccamera-release', ':opencv', ':usbCameraCommon-release'
+include ':app', ':libuvccamera-release', ':usbCameraCommon-release'

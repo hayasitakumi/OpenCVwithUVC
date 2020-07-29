@@ -105,7 +105,6 @@ attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
 attr buttonTintMode
-attr camera_id
 attr chainUseRtl
 attr checkBoxPreferenceStyle
 attr checkboxStyle
@@ -364,7 +363,6 @@ attr showDividers
 attr showSeekBarValue
 attr showText
 attr showTitle
-attr show_fps
 attr singleChoiceItemLayout
 attr singleLineTitle
 attr spanCount
@@ -1368,9 +1366,7 @@ id always
 id anim_duration
 id anim_listener
 id anim_type
-id any
 id async
-id back
 id barrier
 id beginning
 id blocking
@@ -1424,7 +1420,6 @@ id frame_cross_circle2_button
 id frame_cross_circle_button
 id frame_cross_quarter_button
 id frame_frame_button
-id frame_image
 id frame_type_circle
 id frame_type_circle2
 id frame_type_cross_circle
@@ -1433,7 +1428,6 @@ id frame_type_cross_full
 id frame_type_cross_quarter
 id frame_type_frame
 id frame_type_none
-id front
 id gone
 id groups
 id has_divider
@@ -2111,7 +2105,6 @@ styleable AppCompatTheme android_windowIsFloating android_windowAnimationStyle a
 styleable AspectScaledTextureView aspect_ratio scale_mode
 styleable BackgroundStyle android_selectableItemBackground selectableItemBackground
 styleable ButtonBarLayout allowStacking
-styleable CameraBridgeViewBase camera_id show_fps
 styleable CheckBoxPreference android_summaryOn android_summaryOff android_disableDependentsState disableDependentsState summaryOff summaryOn
 styleable ColorStateListItem android_color android_alpha alpha
 styleable CompoundButton android_button buttonTint buttonTintMode

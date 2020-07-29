@@ -39,15 +39,15 @@
 		android:layout_centerHorizontal="true"
 		android:layout_centerVertical="true"/>
 
-	<ImageView
-		android:id="@+id/frame_image"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_alignBottom="@+id/camera_view"
-		android:layout_alignLeft="@+id/camera_view"
-		android:layout_alignRight="@+id/camera_view"
-		android:layout_alignTop="@+id/camera_view"
-		android:src="@drawable/border"/>
+<!--	<ImageView-->
+<!--		android:id="@+id/frame_image"-->
+<!--		android:layout_width="wrap_content"-->
+<!--		android:layout_height="wrap_content"-->
+<!--		android:layout_alignBottom="@+id/camera_view"-->
+<!--		android:layout_alignLeft="@+id/camera_view"-->
+<!--		android:layout_alignRight="@+id/camera_view"-->
+<!--		android:layout_alignTop="@+id/camera_view"-->
+<!--		android:src="@drawable/border"/>-->
 
 <!--	<SurfaceView-->
 <!--		android:id="@+id/result_view"-->

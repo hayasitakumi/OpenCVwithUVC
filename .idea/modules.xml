@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/OpenCVwithUVC.iml" filepath="$PROJECT_DIR$/.idea/OpenCVwithUVC.iml" group="OpenCVwithUVC" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="OpenCVwithUVC/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/libuvccamera-release/libuvccamera-release.iml" filepath="$PROJECT_DIR$/.idea/modules/libuvccamera-release/libuvccamera-release.iml" group="OpenCVwithUVC/libuvccamera-release" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/opencv/opencv.iml" filepath="$PROJECT_DIR$/.idea/modules/opencv/opencv.iml" group="OpenCVwithUVC/opencv" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/usbCameraCommon-release/usbCameraCommon-release.iml" filepath="$PROJECT_DIR$/.idea/modules/usbCameraCommon-release/usbCameraCommon-release.iml" group="OpenCVwithUVC/usbCameraCommon-release" />
     </modules>
   </component>

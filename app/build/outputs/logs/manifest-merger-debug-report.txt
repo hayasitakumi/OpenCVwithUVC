@@ -4,7 +4,6 @@ ADDED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/And
 INJECTED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/AndroidManifest.xml:2:1-28:12
 INJECTED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/AndroidManifest.xml:2:1-28:12
 INJECTED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/AndroidManifest.xml:2:1-28:12
-MERGED from [:opencv] /Users/syabonbubble/Documents/Research/OpenCVwithUVC/opencv/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/d819a8f2a95de93f01a8a32f7fe1be84/constraint-layout-1.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [com.serenegiant:common:2.12.4] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/5537c2b2f8152c5c6f4a8b2f8f80bcec/common-2.12.4/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:preference-v7:27.1.1] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/cb365d19f799bdcde99e473ba1af8e25/preference-v7-27.1.1/AndroidManifest.xml:17:1-22:12
@@ -93,8 +92,6 @@ uses-sdk
 INJECTED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/AndroidManifest.xml
 INJECTED from /Users/syabonbubble/Documents/Research/OpenCVwithUVC/app/src/main/AndroidManifest.xml
-MERGED from [:opencv] /Users/syabonbubble/Documents/Research/OpenCVwithUVC/opencv/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:opencv] /Users/syabonbubble/Documents/Research/OpenCVwithUVC/opencv/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/d819a8f2a95de93f01a8a32f7fe1be84/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/d819a8f2a95de93f01a8a32f7fe1be84/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
 MERGED from [com.serenegiant:common:2.12.4] /Users/syabonbubble/.gradle/caches/transforms-2/files-2.1/5537c2b2f8152c5c6f4a8b2f8f80bcec/common-2.12.4/AndroidManifest.xml:7:5-9:41
